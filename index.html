@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rixhav Racing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🏎️ RIXHAV RACING</h1>
+    <p class="subtitle">Dodge traffic. Beat your high score!</p>
+
+    <div class="game-container">
+        <div class="score-board">
+            <span>Score: <b id="score">0</b></span>
+            <span>Best: <b id="best">0</b></span>
+        </div>
+
+        <canvas id="game" width="400" height="650"></canvas>
+
+        <div class="controls">
+            <button id="left">⬅ LEFT</button>
+            <button id="right">RIGHT ➡</button>
+        </div>
+
+        <button id="start">START GAME</button>
+        <p id="message">Use arrow keys or buttons to drive!</p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
